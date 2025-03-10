@@ -8,6 +8,7 @@ public class Launcher : MonoBehaviour
     public float launchForceMultiplier = 5f;
 
     private ShotManager shotManager;
+    private TargetManager targetManager;
     private TrajectoryManager trajectoryManager;
     private InputHandler inputHandler;
     private ProjectileManager projectileShooter;
@@ -19,6 +20,7 @@ public class Launcher : MonoBehaviour
     private void Start()
     {
         shotManager = FindFirstObjectByType<ShotManager>();
+        targetManager = FindFirstObjectByType<TargetManager>(); 
         trajectoryManager = FindFirstObjectByType<TrajectoryManager>();
         inputHandler = FindFirstObjectByType<InputHandler>();
         projectileShooter = FindFirstObjectByType<ProjectileManager>();
@@ -33,6 +35,7 @@ public class Launcher : MonoBehaviour
         }
 
         if (shotManager != null) shotManager.OnAllShotsFired += () => canShoot = false;
+        if (targetManager != null) targetManager.OnAllTargetsDestroyed += () => canShoot = false;
     }
 
     private bool CanStartDrag()

@@ -14,10 +14,12 @@ public class UIManager : MonoBehaviour
     public void ShowWinScreen()
     {
         winScreen.SetActive(true);
+        loseScreen.SetActive(false);
     }
 
     public void ShowLoseScreen()
     {
+        winScreen.SetActive(false);
         loseScreen.SetActive(true);
     }
 }

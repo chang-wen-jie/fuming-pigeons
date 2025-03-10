@@ -24,15 +24,8 @@ public class WindManager : MonoBehaviour
         _.y = windForce.y;
     }
 
-    private void OnValidate() // Preview WindParticles in the ditor
+    private void OnValidate()
     {
         if (windParticles != null) ApplyWindForce();
     }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawLine(Vector3.zero, (Vector3)windForce * 5f);
-    }
-
 }

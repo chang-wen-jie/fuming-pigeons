@@ -22,6 +22,12 @@ public class Projectile : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (hasLanded) return; // Prevent multiple OnProjectileLanded triggers when colliding with another Projectile
+        if (collision.gameObject.CompareTag("Highway"))
+        {
+            Destroy(gameObject);
+            OnProjectileLanded?.Invoke();
+            return;
+        }
         hasLanded = true;
 
         if (!collision.gameObject.CompareTag("Projectile"))
@@ -30,8 +36,8 @@ public class Projectile : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
 
             transform.SetParent(collision.transform);
-
-        } else Destroy(collision.gameObject);
+        }
+        else Destroy(collision.gameObject);
 
         OnProjectileLanded?.Invoke();
     }

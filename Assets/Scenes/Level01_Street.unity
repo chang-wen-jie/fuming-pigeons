@@ -803,7 +803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: 59.2}
+  m_AnchoredPosition: {x: 0, y: 59.2}
   m_SizeDelta: {x: 273.3571, y: 41.4126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &353431070
@@ -1154,7 +1154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &440018247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,10 +1230,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 605926276}
-  - {fileID: 1799792212}
   - {fileID: 353431069}
   - {fileID: 602448440}
+  - {fileID: 605926276}
+  - {fileID: 1799792212}
   m_Father: {fileID: 1889026890}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1561,7 +1561,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.09019608, g: 0.26666668, b: 0.39607844, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2359,7 +2359,7 @@ GameObject:
   - component: {fileID: 854282950}
   - component: {fileID: 854282949}
   m_Layer: 5
-  m_Name: QuitGameButtonText
+  m_Name: StopGameButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2876,7 +2876,7 @@ Transform:
   m_GameObject: {fileID: 976696101}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.34989, y: 1.315787, z: -6.726755}
+  m_LocalPosition: {x: 8.44, y: 1.77, z: -6.726755}
   m_LocalScale: {x: 0.14303009, y: 0.11442902, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8325,7 +8325,7 @@ GameObject:
   - component: {fileID: 1324970724}
   - component: {fileID: 1324970728}
   m_Layer: 0
-  m_Name: Target
+  m_Name: black_person_0
   m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8343,7 +8343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6add8dd3ecefe472e900008427c4a76b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 10
 --- !u!212 &1324970726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8691,7 +8690,7 @@ Transform:
   m_GameObject: {fileID: 1353043774}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 663.76575, y: 251.44296, z: -10.5898}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8724,7 +8723,7 @@ GameObject:
   - component: {fileID: 1404427537}
   - component: {fileID: 1404427536}
   m_Layer: 0
-  m_Name: Target (1)
+  m_Name: white_person_0
   m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9249,7 +9248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6add8dd3ecefe472e900008427c4a76b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 10
 --- !u!212 &1404427538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9757,7 +9755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -373.77225, y: 143.23668}
+  m_AnchoredPosition: {x: -369, y: 195.48}
   m_SizeDelta: {x: 34.9432, y: 35.4666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1737132919
@@ -9841,7 +9839,7 @@ Transform:
   m_GameObject: {fileID: 1737132919}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.050110817, y: 2.1257868, z: -4.726755}
+  m_LocalPosition: {x: -0.34, y: 2.6, z: -4.726755}
   m_LocalScale: {x: 0.07168013, y: 0.06922871, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9860,7 +9858,7 @@ GameObject:
   - component: {fileID: 1799792214}
   - component: {fileID: 1799792213}
   m_Layer: 5
-  m_Name: QuitGameButton
+  m_Name: StopGameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9930,9 +9928,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1007107520}
-        m_TargetAssemblyTypeName: PauseMenuController, Assembly-CSharp
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 898961241}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10061,7 +10059,7 @@ Transform:
   m_GameObject: {fileID: 1809648091}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.100111, y: 2.1057868, z: -5.726755}
+  m_LocalPosition: {x: -4.04, y: 1.79, z: -5.726755}
   m_LocalScale: {x: 0.045922205, y: 0.03260091, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10148,7 +10146,7 @@ Transform:
   m_GameObject: {fileID: 1812702468}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.239889, y: 2.3157868, z: -6.726755}
+  m_LocalPosition: {x: 4.06, y: 2.55, z: -6.726755}
   m_LocalScale: {x: 0.08992794, y: 0.11814592, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10450,8 +10448,8 @@ Transform:
   m_GameObject: {fileID: 1967691706}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5785892, y: -5.874213, z: -13.452149}
-  m_LocalScale: {x: 6.879336, y: 1, z: 1}
+  m_LocalPosition: {x: 2.4356, y: -5.874213, z: -13.452149}
+  m_LocalScale: {x: 11, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157923466}
@@ -10579,7 +10577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3679241671441412316, guid: 1d061d202a84d4d3ab4b17d7bedc3578, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.512676
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3679241671441412316, guid: 1d061d202a84d4d3ab4b17d7bedc3578, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10793,11 +10791,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2181600593986068598, guid: d9bea1bfbd4274508a016d04daded2b4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 332.6
+      value: 329
       objectReference: {fileID: 0}
     - target: {fileID: 2181600593986068598, guid: d9bea1bfbd4274508a016d04daded2b4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 149.76
+      value: 202
       objectReference: {fileID: 0}
     - target: {fileID: 2221626378612570297, guid: d9bea1bfbd4274508a016d04daded2b4, type: 3}
       propertyPath: m_SizeDelta.x
@@ -10809,11 +10807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2221626378612570297, guid: d9bea1bfbd4274508a016d04daded2b4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 332.6
+      value: 328.99994
       objectReference: {fileID: 0}
     - target: {fileID: 2221626378612570297, guid: d9bea1bfbd4274508a016d04daded2b4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 122.7
+      value: 174.94003
       objectReference: {fileID: 0}
     - target: {fileID: 2396724022453475842, guid: d9bea1bfbd4274508a016d04daded2b4, type: 3}
       propertyPath: m_fontSize
